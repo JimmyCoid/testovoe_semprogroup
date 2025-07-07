@@ -1,0 +1,104 @@
+:root { 
+    --black: #111;
+    --accent: #2F80ED;
+	--black-form: #000;
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Proxima Nova;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+button {
+    font-family: Proxima Nova;
+    font-size: 16px;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 80px;
+    margin: 0 auto; 
+}
+
+@media (max-width: 1769px) {
+	.container {
+		padding: 0 40px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.container {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.container {
+		padding: 0 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding: 0 20px;
+	}
+}
+
+// @media (min-width: 1770px) {
+// }
+
+// @media (min-width: 1281px) and (max-width: 1769px) {
+// }
+
+// @media (min-width: 1024px) and (max-width: 1280px) {
+// }
+
+// @media (min-width: 768px) and (max-width: 1023px) {
+// }
+
+// @media (min-width: 0) and (max-width: 767px) {
+// }
+
+@import "header.scss";
+@import "banner.scss";
+@import "about.scss";
+@import "popup.scss";
